@@ -14,13 +14,13 @@ closeMenu.addEventListener('click', function(){
 
 hamburger.addEventListener('click', function(){
 
-        mediaMenu.className = mediaMenu.classList +  " active";
-        let state = mediaMenu.classList;
-        console.log(state);
 
-    if(state = ".hamburger-menu .active") {
-        closeMenu.addEventListener('click', function(){
+    mediaMenu.className = mediaMenu.classList +  " active";
+
+        if(state = ".hamburger-menu .active") {
+            closeMenu.addEventListener('click', function(){
             mediaMenu.style.display = "none";
+            console.log(state);
         });             
     }
 
